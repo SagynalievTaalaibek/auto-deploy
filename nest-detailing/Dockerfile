@@ -7,7 +7,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Устанавливаем зависимости (и Prisma CLI)
-RUN npm install --legacy-peer-deps --loglevel=error
+RUN npm install --legacy-peer-deps
 
 # Копируем весь проект
 COPY . .

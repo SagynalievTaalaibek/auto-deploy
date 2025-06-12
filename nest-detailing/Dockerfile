@@ -1,20 +1,28 @@
 FROM node:20-alpine
 
+# Устанавливаем зависимости для сборки
 WORKDIR /app
 
 # Копируем package.json и package-lock.json
 COPY package*.json ./
 
-# Устанавливаем зависимости включая devDependencies
-RUN npm install --legacy-peer-deps
+# Устанавливаем зависимости (и Prisma CLI)
+RUN npm install --legacy-peer-deps --loglevel=error
 
-# Копируем весь код
+# Копируем весь проект
 COPY . .
 
-# Компилируем проект (если у тебя build-команда компилирует TS)
+# Копируем схемы Prisma (важно, если они в /prisma)
+COPY prisma ./prisma
+
+# Генерируем Prisma Client
+RUN npx prisma generate
+
+# (по желанию) Применить миграции, если используешь migrate deploy
+# RUN npx prisma migrate deploy
+
+# Собираем NestJS
 RUN npm run build
 
-# Для продакшена обычно запускаем без сидов
-# Но если хочешь, можно запускать сиды отдельно
-
+# Старт
 CMD ["npm", "run", "start:prod"]

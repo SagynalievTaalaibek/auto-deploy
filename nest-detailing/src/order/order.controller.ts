@@ -61,7 +61,6 @@ export class OrderController {
 		return this.orderService.updateOrder(id, dto);
 	}
 
-	@Authorization()
 	@HttpCode(HttpStatus.OK)
 	@Get()
 	public async findAll(

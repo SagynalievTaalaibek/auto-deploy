@@ -20,9 +20,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "seed": "ts-node src/prisma/seed.ts",
     "seed:order": "ts-node src/prisma/seed.order.ts",
-    "seed:contact": "ts-node src/prisma/seed.contact.ts",
-    "seed:all": "npm-run-all seed seed:order seed:contact",
-    "postinstall": "npm run seed:all"
+    "seed:contact": "ts-node src/prisma/seed.contact.ts"
   },
   "dependencies": {
     "@faker-js/faker": "^9.8.0",

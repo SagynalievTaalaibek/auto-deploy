@@ -1,0 +1,695 @@
+[
+  {
+    "name": "Тонирование стекол",
+    "image": "https://i.postimg.cc/cHXFQynn/image.webp",
+    "description": "Мы стараемся делать все возможное, чтобы наши услуги и их стоимость были доступны для любого автовладельца. Тонирование стёкл очень популярная услуга и в нашей компании мы выполняем данные работы на высочайшем уровне.",
+    "services": [
+      {
+        "name": "тонировка стекол авто",
+        "slug": "car-window-tinting",
+        "description": "Тонирование стекол автомобиля для защиты от солнца и приватности",
+        "base_price_min": 2500,
+        "base_price_max": 7500
+      },
+      {
+        "name": "атермальная тонировка",
+        "slug": "heat-resistant-window-tinting",
+        "description": "Установка атермальной пленки для защиты от тепла и УФ-лучей",
+        "base_price_min": 6000,
+        "base_price_max": 18000
+      },
+      {
+        "name": "бронепленка на лобовое стекло",
+        "slug": "windshield-protective-film",
+        "description": "Нанесение защитной бронепленки на лобовое стекло",
+        "base_price_min": 8000,
+        "base_price_max": 20000
+      },
+      {
+        "name": "тонирование фар",
+        "slug": "headlight-tinting",
+        "description": "Тонировка фар для стилизации и защиты",
+        "base_price_min": 3000,
+        "base_price_max": 10000
+      },
+      {
+        "name": "тонировка задней полусферы",
+        "slug": "rear-window-tinting",
+        "description": "Тонирование задних стекол автомобиля",
+        "base_price_min": 4000,
+        "base_price_max": 12000
+      },
+      {
+        "name": "растонировка стекол",
+        "slug": "window-de-tinting",
+        "description": "Удаление старой тонировочной пленки со стекол",
+        "base_price_min": 2000,
+        "base_price_max": 8000
+      },
+      {
+        "name": "фотохромные фары",
+        "slug": "photochromic-headlights",
+        "description": "Установка фотохромной пленки на фары",
+        "base_price_min": 7000,
+        "base_price_max": 15000
+      },
+      {
+        "name": "тонировка пленкой llumar",
+        "slug": "llumar-window-tinting",
+        "description": "Тонирование стекол с использованием пленки Llumar",
+        "base_price_min": 6000,
+        "base_price_max": 20000
+      }
+    ]
+  },
+  {
+    "name": "Полировка",
+    "image": "https://i.postimg.cc/3NNn1SXb/image.jpg",
+    "description": "Привести состояние не нового автомобиля максимально в первоначальный вид, а также удалить с кузова различные повреждения виде мелких царапин или сколов, всё это можно сделать в нашем Detailing центре.",
+    "services": [
+      {
+        "name": "полировка автомобиля",
+        "slug": "car-polishing",
+        "description": "Полная полировка кузова автомобиля для блеска и защиты",
+        "base_price_min": 10000,
+        "base_price_max": 30000
+      },
+      {
+        "name": "нанесение жидкого стекла",
+        "slug": "liquid-glass-coating",
+        "description": "Покрытие кузова жидким стеклом для долговременной защиты",
+        "base_price_min": 12000,
+        "base_price_max": 35000
+      },
+      {
+        "name": "абразивная полировка",
+        "slug": "abrasive-polishing",
+        "description": "Удаление царапин и дефектов с помощью абразивной полировки",
+        "base_price_min": 15000,
+        "base_price_max": 40000
+      },
+      {
+        "name": "детейлинг полировка",
+        "slug": "detailing-polishing",
+        "description": "Тщательная полировка с акцентом на детали",
+        "base_price_min": 18000,
+        "base_price_max": 50000
+      },
+      {
+        "name": "нанесение керамики",
+        "slug": "ceramic-coating",
+        "description": "Покрытие кузова керамическим составом для защиты",
+        "base_price_min": 20000,
+        "base_price_max": 60000
+      },
+      {
+        "name": "мягкая полировка",
+        "slug": "soft-polishing",
+        "description": "Легкая полировка для удаления мелких царапин",
+        "base_price_min": 8000,
+        "base_price_max": 20000
+      },
+      {
+        "name": "удалить пятна с кузова",
+        "slug": "body-stain-removal",
+        "description": "Удаление пятен и загрязнений с кузова автомобиля",
+        "base_price_min": 3000,
+        "base_price_max": 10000
+      },
+      {
+        "name": "полировка пленки",
+        "slug": "film-polishing",
+        "description": "Полировка защитной пленки для восстановления блеска",
+        "base_price_min": 2500,
+        "base_price_max": 7500
+      },
+      {
+        "name": "восстановление выцветшего пластика",
+        "slug": "faded-plastic-restoration",
+        "description": "Восстановление цвета и текстуры выцветшего пластика",
+        "base_price_min": 4000,
+        "base_price_max": 12000
+      },
+      {
+        "name": "полировка стекол",
+        "slug": "glass-polishing",
+        "description": "Полировка стекол для удаления царапин и мутности",
+        "base_price_min": 6000,
+        "base_price_max": 18000
+      },
+      {
+        "name": "антидождь",
+        "slug": "rain-repellent-treatment",
+        "description": "Нанесение покрытия антидождь для улучшения видимости",
+        "base_price_min": 2000,
+        "base_price_max": 8000
+      },
+      {
+        "name": "полировка дисков",
+        "slug": "rim-polishing",
+        "description": "Полировка колесных дисков для блеска и защиты",
+        "base_price_min": 2500,
+        "base_price_max": 7500
+      },
+      {
+        "name": "полировка фар",
+        "slug": "headlight-polishing",
+        "description": "Восстановление прозрачности и блеска фар",
+        "base_price_min": 3000,
+        "base_price_max": 10000
+      },
+      {
+        "name": "полировка приборной панели",
+        "slug": "dashboard-polishing",
+        "description": "Полировка приборной панели для чистоты и блеска",
+        "base_price_min": 2000,
+        "base_price_max": 7000
+      }
+    ]
+  },
+  {
+    "name": "Оклейка полиуретаном",
+    "image": "https://i.postimg.cc/wjm4nGSC/image.webp",
+    "description": "Мы работаем практически со всеми известными и популярными марками пленок. Выполняем такие работы как: оклейка полиуретановой плёнкой кузова автомобиля, оклейка виниловыми, текстурными и гибридными плёнками. Все работы выполняются профессионально с гарантией качества.",
+    "services": [
+      {
+        "name": "оклейка автомобиля",
+        "slug": "car-wrap",
+        "description": "Полная оклейка автомобиля полиуретановой пленкой",
+        "base_price_min": 50000,
+        "base_price_max": 150000
+      },
+      {
+        "name": "антигравийная защита",
+        "slug": "paint-protection-film",
+        "description": "Нанесение антигравийной пленки для защиты кузова",
+        "base_price_min": 20000,
+        "base_price_max": 60000
+      },
+      {
+        "name": "оклейка салона",
+        "slug": "interior-wrap",
+        "description": "Оклейка элементов салона полиуретановой пленкой",
+        "base_price_min": 10000,
+        "base_price_max": 30000
+      },
+      {
+        "name": "оклейка передней части",
+        "slug": "front-part-wrap",
+        "description": "Защита передней части автомобиля пленкой",
+        "base_price_min": 15000,
+        "base_price_max": 45000
+      },
+      {
+        "name": "оклейка капота",
+        "slug": "hood-wrap",
+        "description": "Оклейка капота полиуретановой пленкой",
+        "base_price_min": 10000,
+        "base_price_max": 30000
+      },
+      {
+        "name": "оклейка бампера",
+        "slug": "bumper-wrap",
+        "description": "Защита бампера полиуретановой пленкой",
+        "base_price_min": 8000,
+        "base_price_max": 25000
+      },
+      {
+        "name": "оклейка гибридной плёнкой",
+        "slug": "hybrid-film-wrap",
+        "description": "Оклейка автомобиля гибридной защитной пленкой",
+        "base_price_min": 20000,
+        "base_price_max": 60000
+      },
+      {
+        "name": "бронирование фар",
+        "slug": "headlight-protection-film",
+        "description": "Защита фар полиуретановой пленкой",
+        "base_price_min": 2500,
+        "base_price_max": 7500
+      },
+      {
+        "name": "полная оклейка авто",
+        "slug": "full-car-wrap",
+        "description": "Полная защита кузова полиуретановой пленкой",
+        "base_price_min": 60000,
+        "base_price_max": 180000
+      },
+      {
+        "name": "оклейка матовой плёнкой",
+        "slug": "matte-wrap",
+        "description": "Оклейка автомобиля матовой полиуретановой пленкой",
+        "base_price_min": 50000,
+        "base_price_max": 150000
+      },
+      {
+        "name": "оклейка стоек дверей",
+        "slug": "door-pillars-wrap",
+        "description": "Zaщита стоек дверей полиуретановой пленкой",
+        "base_price_min": 3000,
+        "base_price_max": 10000
+      },
+      {
+        "name": "оклейка белого авто",
+        "slug": "white-car-wrap",
+        "description": "Оклейка белого автомобиля полиуретановой пленкой",
+        "base_price_min": 50000,
+        "base_price_max": 150000
+      },
+      {
+        "name": "плёнка под ручки авто",
+        "slug": "door-handle-protection-film",
+        "description": "Защита зоны под ручками полиуретановой пленкой",
+        "base_price_min": 2000,
+        "base_price_max": 8000
+      },
+      {
+        "name": "оклейка полиуретаном",
+        "slug": "polyurethane-paint-protection",
+        "description": "Стандартная оклейка полиуретановой пленкой",
+        "base_price_min": 50000,
+        "base_price_max": 150000
+      },
+      {
+        "name": "оклейка мотоцикла",
+        "slug": "motorcycle-wrap",
+        "description": "Оклейка мотоцикла полиуретановой пленкой",
+        "base_price_min": 20000,
+        "base_price_max": 60000
+      },
+      {
+        "name": "бронирование порогов",
+        "slug": "door-sills-protection",
+        "description": "Защита порогов автомобиля полиуретановой пленкой",
+        "base_price_min": 2500,
+        "base_price_max": 7500
+      },
+      {
+        "name": "оклейка цветным полиуретаном",
+        "slug": "colored-polyurethane-wrap",
+        "description": "Оклейка цветной полиуретановой пленкой",
+        "base_price_min": 55000,
+        "base_price_max": 160000
+      },
+      {
+        "name": "цены на оклейку плёнкой",
+        "slug": "wrap-pricing",
+        "description": "Консультация по стоимости оклейки пленкой",
+        "base_price_min": 1000,
+        "base_price_max": 5000
+      },
+      {
+        "name": "оклейка дверей",
+        "slug": "car-doors-wrap",
+        "description": "Защита дверей полиуретановой пленкой",
+        "base_price_min": 8000,
+        "base_price_max": 25000
+      }
+    ]
+  },
+  {
+    "name": "Оклейка винилом",
+    "image": "https://i.postimg.cc/wTPbfpb5/image.webp",
+    "description": "Мы стараемся делать все возможное, чтобы наши услуги и их стоимость были доступны для любого автовладельца. Оклейка виниловыми пленками — одна из самых популярных услуг, и мы выполняем её на высочайшем уровне, используя качественные материалы и проверенные технологии.",
+    "services": [
+      {
+        "name": "оклейка автомобиля",
+        "slug": "vinyl-car-wrap",
+        "description": "Полная оклейка автомобиля виниловой пленкой",
+        "base_price_min": 40000,
+        "base_price_max": 120000
+      },
+      {
+        "name": "антихром",
+        "slug": "dechroming",
+        "description": "Удаление хрома и оклейка виниловой пленкой",
+        "base_price_min": 10000,
+        "base_price_max": 30000
+      },
+      {
+        "name": "оклейка крыши",
+        "slug": "roof-wrap",
+        "description": "Оклейка крыши автомобиля виниловой пленкой",
+        "base_price_min": 8000,
+        "base_price_max": 25000
+      },
+      {
+        "name": "оклейка виниловой пленкой",
+        "slug": "vinyl-wrap",
+        "description": "Стандартная оклейка виниловой пленкой",
+        "base_price_min": 40000,
+        "base_price_max": 120000
+      },
+      {
+        "name": "оклейка зеркальной пленкой",
+        "slug": "mirror-vinyl-wrap",
+        "description": "Оклейка автомобиля зеркальной виниловой пленкой",
+        "base_price_min": 45000,
+        "base_price_max": 130000
+      },
+      {
+        "name": "оклейка авто карбоном",
+        "slug": "carbon-vinyl-wrap",
+        "description": "Оклейка автомобиля винилом под карбон",
+        "base_price_min": 45000,
+        "base_price_max": 130000
+      },
+      {
+        "name": "снять виниловую пленку",
+        "slug": "vinyl-wrap-removal",
+        "description": "Удаление виниловой пленки с автомобиля",
+        "base_price_min": 2500,
+        "base_price_max": 7500
+      },
+      {
+        "name": "брендинг автомобиля",
+        "slug": "vehicle-branding",
+        "description": "Нанесение брендированной виниловой пленки",
+        "base_price_min": 20000,
+        "base_price_max": 60000
+      },
+      {
+        "name": "оклейка молдингов",
+        "slug": "moldings-wrap",
+        "description": "Оклейка молдингов виниловой пленкой",
+        "base_price_min": 3000,
+        "base_price_max": 10000
+      },
+      {
+        "name": "оклейка пленкой хамелеон",
+        "slug": "chameleon-vinyl-wrap",
+        "description": "Оклейка виниловой пленкой с эффектом хамелеон",
+        "base_price_min": 50000,
+        "base_price_max": 150000
+      },
+      {
+        "name": "оклейка боковых зеркал",
+        "slug": "side-mirrors-wrap",
+        "description": "Оклейка боковых зеркал виниловой пленкой",
+        "base_price_min": 3000,
+        "base_price_max": 10000
+      }
+    ]
+  },
+  {
+    "name": "Оклейка салона",
+    "image": "https://i.postimg.cc/ZqzsmLmC/image.webp",
+    "description": "Для того чтобы уберечь лакированные элементы салона автомобиля от повреждений и мелких царапин, рекомендуем защитить их специальной полиуретановой плёнкой. Эти услуги оказывает наш Detailing центр, гарантируя точность оклейки и высокое качество материалов.",
+    "services": [
+      {
+        "name": "оклейка защитной пленкой",
+        "slug": "interior-protective-wrap",
+        "description": "Защита салона с помощью прозрачной пленки",
+        "base_price_min": 2500,
+        "base_price_max": 7500
+      },
+      {
+        "name": "оклейка плёнкой под алюминий",
+        "slug": "aluminum-style-interior-wrap",
+        "description": "Оклейка салона пленкой с имитацией алюминия",
+        "base_price_min": 6000,
+        "base_price_max": 18000
+      },
+      {
+        "name": "оклейка под карбон",
+        "slug": "carbon-style-interior-wrap",
+        "description": "Оклейка салона пленкой с имитацией карбона",
+        "base_price_min": 6000,
+        "base_price_max": 18000
+      },
+      {
+        "name": "оклейка дверей",
+        "slug": "interior-doors-wrap",
+        "description": "Оклейка внутренних дверей салона пленкой",
+        "base_price_min": 4000,
+        "base_price_max": 12000
+      },
+      {
+        "name": "оклейка текстурной плёнкой",
+        "slug": "textured-interior-wrap",
+        "description": "Оклейка салона текстурной декоративной пленкой",
+        "base_price_min": 2500,
+        "base_price_max": 7500
+      },
+      {
+        "name": "оклейка под дерево",
+        "slug": "wood-style-interior-wrap",
+        "description": "Оклейка салона пленкой с имитацией дерева",
+        "base_price_min": 6000,
+        "base_price_max": 18000
+      },
+      {
+        "name": "оклейка приборной панели",
+        "slug": "dashboard-wrap",
+        "description": "Оклейка приборной панели декоративной пленкой",
+        "base_price_min": 3000,
+        "base_price_max": 10000
+      }
+    ]
+  },
+  {
+    "name": "Химчистка",
+    "image": "https://i.postimg.cc/c1kDCWZq/image.jpg",
+    "description": "В нашем центре вы можете избавиться от неприятных запахов в салоне автомобиля, а также заказать полную профессиональную химчистку с использованием качественных и безопасных материалов. Мы обеспечим вашему авто чистоту, свежесть и комфорт.",
+    "services": [
+      {
+        "name": "химчистка автомобиля",
+        "slug": "car-dry-cleaning",
+        "description": "Полная химчистка салона автомобиля",
+        "base_price_min": 8000,
+        "base_price_max": 20000
+      },
+      {
+        "name": "удаление запаха",
+        "slug": "odor-removal",
+        "description": "Удаление неприятных запахов из салона",
+        "base_price_min": 3000,
+        "base_price_max": 10000
+      },
+      {
+        "name": "уход за кожаным салоном",
+        "slug": "leather-interior-care",
+        "description": "Чистка и уход за кожаными элементами салона",
+        "base_price_min": 2500,
+        "base_price_max": 7500
+      },
+      {
+        "name": "предпродажная подготовка",
+        "slug": "pre-sale-preparation",
+        "description": "Химчистка для подготовки автомобиля к продаже",
+        "base_price_min": 10000,
+        "base_price_max": 25000
+      },
+      {
+        "name": "подарочный сертификат",
+        "slug": "gift-certificate",
+        "description": "Сертификат на услуги химчистки",
+        "base_price_min": 2500,
+        "base_price_max": 7500
+      },
+      {
+        "name": "озонирование салона",
+        "slug": "interior-ozonation",
+        "description": "Озонирование для устранения бактерий и запахов",
+        "base_price_min": 3000,
+        "base_price_max": 10000
+      },
+      {
+        "name": "химчистка пола",
+        "slug": "floor-cleaning",
+        "description": "Глубокая чистка пола салона автомобиля",
+        "base_price_min": 2000,
+        "base_price_max": 8000
+      },
+      {
+        "name": "химчистка багажника",
+        "slug": "trunk-cleaning",
+        "description": "Чистка багажного отделения автомобиля",
+        "base_price_min": 2000,
+        "base_price_max": 8000
+      },
+      {
+        "name": "антибактериальная обработка",
+        "slug": "antibacterial-treatment",
+        "description": "Обработка салона для уничтожения бактерий",
+        "base_price_min": 3000,
+        "base_price_max": 10000
+      },
+      {
+        "name": "химчистка потолка",
+        "slug": "ceiling-cleaning",
+        "description": "Чистка потолка салона автомобиля",
+        "base_price_min": 2000,
+        "base_price_max": 8000
+      },
+      {
+        "name": "химчистка сидений",
+        "slug": "seat-cleaning",
+        "description": "Глубокая чистка сидений автомобиля",
+        "base_price_min": 3000,
+        "base_price_max": 10000
+      },
+      {
+        "name": "химчистка дисков",
+        "slug": "wheel-cleaning",
+        "description": "Чистка колесных дисков от загрязнений",
+        "base_price_min": 2000,
+        "base_price_max": 8000
+      },
+      {
+        "name": "чернение шин",
+        "slug": "tire-blackening",
+        "description": "Обработка шин для придания черного блеска",
+        "base_price_min": 1000,
+        "base_price_max": 5000
+      },
+      {
+        "name": "обработка уплотнителей силиконом",
+        "slug": "rubber-seals-silicone-treatment",
+        "description": "Силиконовая обработка уплотнителей для защиты",
+        "base_price_min": 1000,
+        "base_price_max": 5000
+      }
+    ]
+  },
+  {
+    "name": "Ремонт салона",
+    "image": "https://i.postimg.cc/cHsDg4rW/image.jpg",
+    "description": "Если необходимо отремонтировать повреждения в салоне автомобиля, восстановить или перекрасить кожаные и виниловые элементы — специалисты нашего detailing центра сделают это качественно, аккуратно и с использованием профессиональных материалов",
+    "services": [
+      {
+        "name": "ремонт обивки салона",
+        "slug": "interior-upholstery-repair",
+        "description": "Восстановление обивки салона автомобиля",
+        "base_price_min": 2500,
+        "base_price_max": 7500
+      },
+      {
+        "name": "ремонт кожи сидений",
+        "slug": "leather-seat-repair",
+        "description": "Ремонт кожаных сидений от трещин и повреждений",
+        "base_price_min": 6000,
+        "base_price_max": 18000
+      },
+      {
+        "name": "ремонт прожогов потолка",
+        "slug": "ceiling-burn-repair",
+        "description": "Устранение прожогов на потолке салона",
+        "base_price_min": 3000,
+        "base_price_max": 10000
+      },
+      {
+        "name": "покраска руля",
+        "slug": "steering-wheel-painting",
+        "description": "Покраска руля для восстановления внешнего вида",
+        "base_price_min": 4000,
+        "base_price_max": 12000
+      },
+      {
+        "name": "ремонт прожогов сидений",
+        "slug": "seat-burn-repair",
+        "description": "Устранение прожогов на сидениях",
+        "base_price_min": 3000,
+        "base_price_max": 10000
+      },
+      {
+        "name": "ремонт ткани и велюра",
+        "slug": "fabric-and-velour-repair",
+        "description": "Восстановление тканевой и велюровой обивки",
+        "base_price_min": 4000,
+        "base_price_max": 12000
+      },
+      {
+        "name": "ремонт обшивки дверной",
+        "slug": "door-trim-repair",
+        "description": "Ремонт обшивки дверей салона",
+        "base_price_min": 4000,
+        "base_price_max": 12000
+      },
+      {
+        "name": "ремонт пластика",
+        "slug": "plastic-repair",
+        "description": "Восстановление пластиковых элементов салона",
+        "base_price_min": 3000,
+        "base_price_max": 10000
+      },
+      {
+        "name": "покраска пластика",
+        "slug": "plastic-painting",
+        "description": "Покраска пластиковых деталей салона",
+        "base_price_min": 3000,
+        "base_price_max": 10000
+      }
+    ]
+  },
+  {
+    "name": "Кузовной ремонт",
+    "image": "https://i.postimg.cc/SKLTxzQV/image.jpg",
+    "description": "Мы осуществляем безокрасочный ремонт вмятин на кузове автомобиля. Даже сложные повреждения можно устранить без необходимости в дорогостоящей полной покраске. Также предлагаем качественные услуги по покраске отдельных элементов кузова",
+    "services": [
+      {
+        "name": "ремонт вмятин",
+        "slug": "dent-repair",
+        "description": "Устранение вмятин на кузове автомобиля",
+        "base_price_min": 2500,
+        "base_price_max": 7500
+      },
+      {
+        "name": "покраска авто",
+        "slug": "car-painting",
+        "description": "Полная покраска кузова автомобиля",
+        "base_price_min": 30000,
+        "base_price_max": 100000
+      },
+      {
+        "name": "покраска капота",
+        "slug": "hood-painting",
+        "description": "Покраска капота автомобиля",
+        "base_price_min": 8000,
+        "base_price_max": 25000
+      },
+      {
+        "name": "локальная покраска",
+        "slug": "spot-painting",
+        "description": "Покраска отдельных участков кузова",
+        "base_price_min": 3000,
+        "base_price_max": 10000
+      },
+      {
+        "name": "покраска бампера",
+        "slug": "bumper-painting",
+        "description": "Покраска бампера автомобиля",
+        "base_price_min": 6000,
+        "base_price_max": 20000
+      },
+      {
+        "name": "покраска крыла",
+        "slug": "fender-painting",
+        "description": "Покраска крыла автомобиля",
+        "base_price_min": 6000,
+        "base_price_max": 20000
+      },
+      {
+        "name": "цены на покраску",
+        "slug": "painting-prices",
+        "description": "Консультация по стоимости покраски автомобиля",
+        "base_price_min": 1000,
+        "base_price_max": 5000
+      },
+      {
+        "name": "покраска суппортов",
+        "slug": "brake-caliper-painting",
+        "description": "Покраска тормозных суппортов",
+        "base_price_min": 4000,
+        "base_price_max": 12000
+      },
+      {
+        "name": "покраска дисков",
+        "slug": "wheel-painting",
+        "description": "Покраска колесных дисков",
+        "base_price_min": 2500,
+        "base_price_max": 7500
+      }
+    ]
+  }
+]

@@ -1,0 +1,232 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id String @id @default(uuid())
+
+  email    String @unique
+  password String
+  name     String
+  phone    String
+
+  role UserRole @default(REGULAR)
+
+  isVerified         Boolean @default(false) @map("is_verified")
+  isTwoFactorEnabled Boolean @default(false) @map("is_two_factor_enabled")
+
+  // Дополнительные поля
+  specialization String? // Для мастеров, например, "полировка", "химчистка"
+  avatarUrl      String? // URL аватара (если нужен)
+
+  // Связи
+  orders       Order[] @relation("Orders") // Заказы клиента
+  masterOrders Order[] @relation("Master") // Заказы, назначенные мастеру
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("users")
+}
+
+model Token {
+  id String @id @default(uuid())
+
+  email     String
+  token     String    @unique
+  type      TokenType
+  expiresIn DateTime  @map("expires_in")
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@map("tokens")
+}
+
+enum UserRole {
+  REGULAR
+  ADMIN
+  MASTER
+}
+
+enum TokenType {
+  VERIFICATION
+  TWO_FACTOR
+  PASSWORD_RESET
+}
+
+// ЗАКАЗ
+
+model Order {
+  id String @id @default(uuid())
+
+  userId String @map("user_id")
+  user   User   @relation("Orders", fields: [userId], references: [id])
+
+  modelCarId String   @map("model_car_id")
+  modelCar   ModelCar @relation(fields: [modelCarId], references: [id])
+
+  bodyTypeId String   @map("body_type_id")
+  bodyType   BodyType @relation(fields: [bodyTypeId], references: [id])
+
+  carYear  String @map("car_year")
+  carColor String @map("car_color")
+
+  status     OrderStatus @default(NEW)
+  startTime  DateTime?   @map("start_time")
+  endTime    DateTime?   @map("end_time")
+  totalPrice Float?      @map("total_price")
+  notes      String?
+
+  masterId String? @map("master_id")
+  master   User?   @relation("Master", fields: [masterId], references: [id])
+
+  photos String[] @default([])
+
+  createdAt DateTime?
+  updatedAt DateTime  @updatedAt @map("updated_at")
+
+  orderCategories OrderCategory[] // выбранные основные категории
+  orderServices   OrderService[] // конкретные подуслуги
+
+  @@map("orders")
+}
+
+model ServiceCategory {
+  id            String          @id @default(uuid())
+  name          String
+  img           String
+  description   String
+  services      Service[]
+  OrderCategory OrderCategory[]
+
+  @@map("service_categories")
+}
+
+model Service {
+  id           String          @id @default(uuid())
+  name         String
+  description  String?
+  basePriceMin Int             @map("base_price_min")
+  basePriceMax Int             @map("base_price_max")
+  categoryId   String          @map("category_id")
+  category     ServiceCategory @relation(fields: [categoryId], references: [id])
+
+  orderServices OrderService[]
+
+  @@map("services")
+}
+
+model Brand {
+  id          String     @id @default(uuid())
+  name        String
+  coefficient Float      @default(1.0)
+  models      ModelCar[]
+
+  @@map("brand")
+}
+
+model BodyType {
+  id          String @id @default(uuid())
+  name        String @unique
+  coefficient Float  @default(1.0)
+
+  orders Order[]
+
+  @@map("body_type")
+}
+
+model ModelCar {
+  id      String @id @default(uuid())
+  name    String
+  brandId String @map("brand_id")
+  brand   Brand  @relation(fields: [brandId], references: [id])
+
+  orders Order[]
+
+  @@map("model_car")
+}
+
+model OrderCategory {
+  id         String          @id @default(uuid())
+  orderId    String          @map("order_id")
+  categoryId String          @map("category_id")
+  order      Order           @relation(fields: [orderId], references: [id])
+  category   ServiceCategory @relation(fields: [categoryId], references: [id])
+
+  @@unique([orderId, categoryId])
+  @@map("order_categories")
+}
+
+model OrderService {
+  id        String @id @default(uuid())
+  orderId   String @map("order_id")
+  serviceId String @map("service_id")
+
+  order   Order   @relation(fields: [orderId], references: [id])
+  service Service @relation(fields: [serviceId], references: [id])
+
+  @@unique([orderId, serviceId])
+  @@map("order_services")
+}
+
+model Inventory {
+  id            String @id @default(uuid())
+  name          String
+  quantity      Int
+  category      String
+  minStockLevel Int    @map("min_stock_level")
+  purchasePrice Float? @map("purchase_price")
+  totalCost     Float? @map("total_cost")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@unique([name, category])
+  @@map("inventory")
+}
+
+model ContactInfo {
+  id           String  @id @default(uuid())
+  title        String
+  subTitle     String  @map("sub_title")
+  address      String
+  phone        String
+  email        String
+  workingHours String  @map("working_hours")
+  telegramUrl  String?
+  whatsappUrl  String?
+  instagramUrl String?
+  mapUrl       String  @map("map_url")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("contact_info")
+}
+
+model Questions {
+  id       String @id @default(uuid())
+  name     String
+  phone    String
+  question String
+
+  @@map("questions")
+}
+
+// Перечисление статусов заказа
+enum OrderStatus {
+  NEW
+  CONFIRMED
+  IN_PROGRESS
+  COMPLETED
+  PAID
+  CLOSED
+  CANCELLED
+  RESCHEDULED
+}

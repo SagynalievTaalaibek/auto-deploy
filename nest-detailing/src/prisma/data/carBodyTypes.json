@@ -1,0 +1,15 @@
+[
+  { "name": "Седан", "coefficient": 1.0 },
+  { "name": "Хэтчбек", "coefficient": 0.95 },
+  { "name": "Универсал", "coefficient": 1.05 },
+  { "name": "Внедорожник (SUV)", "coefficient": 1.2 },
+  { "name": "Кроссовер (CUV)", "coefficient": 1.15 },
+  { "name": "Купе", "coefficient": 1.1 },
+  { "name": "Кабриолет / Родстер", "coefficient": 1.3 },
+  { "name": "Минивэн", "coefficient": 1.25 },
+  { "name": "Пикап", "coefficient": 1.2 },
+  { "name": "Лифтбек", "coefficient": 1.0 },
+  { "name": "Фургон / Микроавтобус", "coefficient": 1.3 },
+  { "name": "Купе-кроссовер", "coefficient": 1.25 },
+  { "name": "Электромобиль", "coefficient": 1.1 }
+]

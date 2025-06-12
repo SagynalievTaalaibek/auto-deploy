@@ -1,0 +1,488 @@
+[
+  {
+    "name": "Taalaibek",
+    "email": "sagynalievv.t@gmail.com",
+    "phone": "0505601100",
+    "password": "123456",
+    "role": "ADMIN"
+  },
+  {
+    "name": "Arthur",
+    "email": "king.arthur@gmail.com",
+    "phone": "0505601101",
+    "password": "123456",
+    "role": "MASTER",
+    "specialization": "Мастер по тонированию"
+  },
+  {
+    "name": "Harry Potter",
+    "email": "harry.potter@hogwarts.edu",
+    "phone": "0505601102",
+    "password": "123456",
+    "role": "MASTER",
+    "specialization": "Мастер по полировке и химчистке авто"
+  },
+  {
+    "name": "Hermione Granger",
+    "email": "hermione.granger@hogwarts.edu",
+    "phone": "0505601103",
+    "password": "123456",
+    "role": "MASTER",
+    "specialization": "Мастер по оклейке"
+  },
+  {
+    "name": "Ron Weasley",
+    "email": "ron.weasley@hogwarts.edu",
+    "phone": "0505601104",
+    "password": "123456",
+    "role": "MASTER",
+    "specialization": "Мастер по ремонту салона"
+  },
+  {
+    "name": "Severus Snape",
+    "email": "severus.snape@hogwarts.edu",
+    "phone": "0505601105",
+    "password": "123456",
+    "role": "MASTER",
+    "specialization": "Кузовщик"
+  },
+  {
+    "name": "Albus Dumbledore",
+    "email": "albus.dumbledore@hogwarts.edu",
+    "phone": "0505601106",
+    "password": "123456",
+    "role": "MASTER",
+    "specialization": "Детейлер-универсал"
+  },
+  {
+    "name": "Draco Malfoy",
+    "email": "draco.malfoy@hogwarts.edu",
+    "phone": "0505601107",
+    "password": "123456",
+    "role": "MASTER",
+    "specialization": "Мастер по полировке и химчистке авто"
+  },
+  {
+    "name": "Rubeus Hagrid",
+    "email": "rubeus.hagrid@hogwarts.edu",
+    "phone": "0505601108",
+    "password": "123456",
+    "role": "MASTER",
+    "specialization": "Мастер по ремонту салона"
+  },
+  {
+    "name": "Minerva McGonagall",
+    "email": "minerva.mcgonagall@hogwarts.edu",
+    "phone": "0505601109",
+    "password": "123456",
+    "role": "MASTER",
+    "specialization": "Мастер по оклейке"
+  },
+  {
+    "name": "Sirius Black",
+    "email": "sirius.black@hogwarts.edu",
+    "phone": "0505601110",
+    "password": "123456",
+    "role": "MASTER",
+    "specialization": "Детейлер-универсал"
+  },
+  {
+    "name": "Merlin",
+    "email": "merlin.master@gmail.com",
+    "phone": "0505601103",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Percival",
+    "email": "percival.knight@gmail.com",
+    "phone": "0505601104",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Morgana",
+    "email": "morgana.detail@gmail.com",
+    "phone": "0505601106",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Gawain",
+    "email": "gawain.brave@gmail.com",
+    "phone": "0505601105",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Galahad",
+    "email": "galahad.clean@gmail.com",
+    "phone": "0505601107",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Kay",
+    "email": "kay.admin@gmail.com",
+    "phone": "0505601108",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Tristan",
+    "email": "tristan.love@gmail.com",
+    "phone": "0505601109",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Luna Lovegood",
+    "email": "luna.lovegood@example.com",
+    "phone": "0505601110",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Neville Longbottom",
+    "email": "neville.longbottom@example.com",
+    "phone": "0505601111",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Ginny Weasley",
+    "email": "ginny.weasley@example.com",
+    "phone": "0505601112",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Fred Weasley",
+    "email": "fred.weasley@example.com",
+    "phone": "0505601113",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "George Weasley",
+    "email": "george.weasley@example.com",
+    "phone": "0505601114",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Cho Chang",
+    "email": "cho.chang@example.com",
+    "phone": "0505601115",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Dean Thomas",
+    "email": "dean.thomas@example.com",
+    "phone": "0505601116",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Seamus Finnigan",
+    "email": "seamus.finnigan@example.com",
+    "phone": "0505601117",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Cedric Diggory",
+    "email": "cedric.diggory@example.com",
+    "phone": "0505601118",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Fleur Delacour",
+    "email": "fleur.delacour@example.com",
+    "phone": "0505601119",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Frodo Baggins",
+    "email": "frodo.baggins@example.com",
+    "phone": "0505601120",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Samwise Gamgee",
+    "email": "samwise.gamgee@example.com",
+    "phone": "0505601121",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Aragorn",
+    "email": "aragorn@example.com",
+    "phone": "0505601122",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Legolas",
+    "email": "legolas@example.com",
+    "phone": "0505601123",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Gimli",
+    "email": "gimli@example.com",
+    "phone": "0505601124",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Boromir",
+    "email": "boromir@example.com",
+    "phone": "0505601125",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Gandalf",
+    "email": "gandalf@example.com",
+    "phone": "0505601126",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Pippin Took",
+    "email": "pippin.took@example.com",
+    "phone": "0505601127",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Merry Brandybuck",
+    "email": "merry.brandybuck@example.com",
+    "phone": "0505601128",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Éowyn",
+    "email": "éowyn@example.com",
+    "phone": "0505601129",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Jon Snow",
+    "email": "jon.snow@example.com",
+    "phone": "0505601130",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Arya Stark",
+    "email": "arya.stark@example.com",
+    "phone": "0505601131",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Sansa Stark",
+    "email": "sansa.stark@example.com",
+    "phone": "0505601132",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Bran Stark",
+    "email": "bran.stark@example.com",
+    "phone": "0505601133",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Tyrion Lannister",
+    "email": "tyrion.lannister@example.com",
+    "phone": "0505601134",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Jaime Lannister",
+    "email": "jaime.lannister@example.com",
+    "phone": "0505601135",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Cersei Lannister",
+    "email": "cersei.lannister@example.com",
+    "phone": "0505601136",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Daenerys Targaryen",
+    "email": "daenerys.targaryen@example.com",
+    "phone": "0505601137",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Jorah Mormont",
+    "email": "jorah.mormont@example.com",
+    "phone": "0505601138",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Brienne of Tarth",
+    "email": "brienne.of.tarth@example.com",
+    "phone": "0505601139",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Peter Parker",
+    "email": "peter.parker@example.com",
+    "phone": "0505601140",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Tony Stark",
+    "email": "tony.stark@example.com",
+    "phone": "0505601141",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Steve Rogers",
+    "email": "steve.rogers@example.com",
+    "phone": "0505601142",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Natasha Romanoff",
+    "email": "natasha.romanoff@example.com",
+    "phone": "0505601143",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Bruce Banner",
+    "email": "bruce.banner@example.com",
+    "phone": "0505601144",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Wanda Maximoff",
+    "email": "wanda.maximoff@example.com",
+    "phone": "0505601145",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Stephen Strange",
+    "email": "stephen.strange@example.com",
+    "phone": "0505601146",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Scott Lang",
+    "email": "scott.lang@example.com",
+    "phone": "0505601147",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "TChalla",
+    "email": "t.challa@example.com",
+    "phone": "0505601148",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Carol Danvers",
+    "email": "carol.danvers@example.com",
+    "phone": "0505601149",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Clark Kent",
+    "email": "clark.kent@example.com",
+    "phone": "0505601150",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Bruce Wayne",
+    "email": "bruce.wayne@example.com",
+    "phone": "0505601151",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Diana Prince",
+    "email": "diana.prince@example.com",
+    "phone": "0505601152",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Barry Allen",
+    "email": "barry.allen@example.com",
+    "phone": "0505601153",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Arthur Curry",
+    "email": "arthur.curry@example.com",
+    "phone": "0505601154",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Hal Jordan",
+    "email": "hal.jordan@example.com",
+    "phone": "0505601155",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Victor Stone",
+    "email": "victor.stone@example.com",
+    "phone": "0505601156",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Lois Lane",
+    "email": "lois.lane@example.com",
+    "phone": "0505601157",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Lex Luthor",
+    "email": "lex.luthor@example.com",
+    "phone": "0505601158",
+    "password": "123456",
+    "role": "REGULAR"
+  },
+  {
+    "name": "Harley Quinn",
+    "email": "harley.quinn@example.com",
+    "phone": "0505601159",
+    "password": "123456",
+    "role": "REGULAR"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Тонировочная пленка Llumar",
+    "quantity": 50,
+    "category": "Тонирование стекол",
+    "minStockLevel": 10,
+    "purchasePrice": 1500.0
+  },
+  {
+    "name": "Атермальная пленка",
+    "quantity": 30,
+    "category": "Тонирование стекол",
+    "minStockLevel": 5,
+    "purchasePrice": 2000.0
+  },
+  {
+    "name": "Бронепленка для стекол",
+    "quantity": 20,
+    "category": "Тонирование стекол",
+    "minStockLevel": 5,
+    "purchasePrice": 2500.0
+  },
+  {
+    "name": "Полировочная паста 3M",
+    "quantity": 40,
+    "category": "Полировка",
+    "minStockLevel": 10,
+    "purchasePrice": 1200.0
+  },
+  {
+    "name": "Жидкое стекло",
+    "quantity": 25,
+    "category": "Полировка",
+    "minStockLevel": 5,
+    "purchasePrice": 3000.0
+  },
+  {
+    "name": "Керамическое покрытие",
+    "quantity": 15,
+    "category": "Полировка",
+    "minStockLevel": 3,
+    "purchasePrice": 5000.0
+  },
+  {
+    "name": "Полиуретановая пленка",
+    "quantity": 60,
+    "category": "Оклейка полиуретаном",
+    "minStockLevel": 15,
+    "purchasePrice": 4000.0
+  },
+  {
+    "name": "Антигравийная пленка",
+    "quantity": 45,
+    "category": "Оклейка полиуретаном",
+    "minStockLevel": 10,
+    "purchasePrice": 3500.0
+  },
+  {
+    "name": "Виниловая пленка глянцевая",
+    "quantity": 55,
+    "category": "Оклейка винилом",
+    "minStockLevel": 12,
+    "purchasePrice": 1800.0
+  },
+  {
+    "name": "Виниловая пленка хамелеон",
+    "quantity": 20,
+    "category": "Оклейка винилом",
+    "minStockLevel": 5,
+    "purchasePrice": 2500.0
+  },
+  {
+    "name": "Винил под карбон",
+    "quantity": 30,
+    "category": "Оклейка винилом",
+    "minStockLevel": 8,
+    "purchasePrice": 2000.0
+  },
+  {
+    "name": "Прозрачная пленка для салона",
+    "quantity": 35,
+    "category": "Оклейка салона",
+    "minStockLevel": 10,
+    "purchasePrice": 1500.0
+  },
+  {
+    "name": "Пленка под дерево",
+    "quantity": 25,
+    "category": "Оклейка салона",
+    "minStockLevel": 5,
+    "purchasePrice": 1800.0
+  },
+  {
+    "name": "Химчистка для текстиля",
+    "quantity": 50,
+    "category": "Химчистка",
+    "minStockLevel": 15,
+    "purchasePrice": 800.0
+  },
+  {
+    "name": "Средство для кожи",
+    "quantity": 40,
+    "category": "Химчистка",
+    "minStockLevel": 10,
+    "purchasePrice": 1000.0
+  },
+  {
+    "name": "Озонатор картридж",
+    "quantity": 10,
+    "category": "Химчистка",
+    "minStockLevel": 2,
+    "purchasePrice": 5000.0
+  },
+  {
+    "name": "Кожа для обивки",
+    "quantity": 20,
+    "category": "Ремонт салона",
+    "minStockLevel": 5,
+    "purchasePrice": 3000.0
+  },
+  {
+    "name": "Краска для пластика",
+    "quantity": 30,
+    "category": "Ремонт салона",
+    "minStockLevel": 8,
+    "purchasePrice": 1200.0
+  },
+  {
+    "name": "Автоэмаль",
+    "quantity": 50,
+    "category": "Кузовной ремонт",
+    "minStockLevel": 15,
+    "purchasePrice": 2000.0
+  },
+  {
+    "name": "Грунтовка для кузова",
+    "quantity": 40,
+    "category": "Кузовной ремонт",
+    "minStockLevel": 10,
+    "purchasePrice": 1500.0
+  }
+]
